@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/hyperledger-labs/cc-tools/assets"
-	"github.com/hyperledger-labs/cc-tools/errors"
+	"github.com/goledgerdev/cc-tools/assets"
+	"github.com/goledgerdev/cc-tools/errors"
 )
 
 // Example of a custom data type using enum-like structure (iota)

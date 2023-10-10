@@ -1,7 +1,7 @@
 package datatypes
 
 import (
-	"github.com/hyperledger-labs/cc-tools/assets"
+	"github.com/goledgerdev/cc-tools/assets"
 )
 
 // CustomDataTypes contain the user-defined primary data types
