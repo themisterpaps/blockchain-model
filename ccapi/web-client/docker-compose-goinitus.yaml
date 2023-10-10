@@ -12,3 +12,34 @@ services:
       - "8080:80"
     networks:
       - cc-tools-demo-net
+
+version: '3'
+
+networks:
+  cc-tools-demo-net:
+    external: true
+
+services:
+  goinitus:
+    image: goledger/cc-webclient:latest
+    container_name: goinitus
+    ports:
+      - "8081:80"
+    networks:
+      - cc-tools-demo-net
+
+      version: '3'
+
+networks:
+  cc-tools-demo-net:
+    external: true
+
+services:
+  goinitus:
+    image: goledger/cc-webclient:latest
+    container_name: goinitus
+    ports:
+      - "8082:80"
+    networks:
+      - cc-tools-demo-net
+
