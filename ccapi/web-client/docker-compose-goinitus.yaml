@@ -9,7 +9,7 @@ services:
     image: goledger/cc-webclient:latest
     container_name: goinitus1
     ports:
-      - "8081:80"
+      - "8083:80"
   goinitus2:
     image: goledger/cc-webclient:latest
     container_name: goinitus2
